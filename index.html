@@ -6,7 +6,7 @@
 </head>
 <style>
     body {
-        background: rgb(0, 0, 0);
+        background: rgb(126, 126, 126);
         color: rgb(255, 255, 255);
         padding: 10px;
         font-family: arial;
@@ -19,7 +19,7 @@
 
     /* navigation menu */
     nav {
-        background: rgb(255, 0, 0)55);
+        background: rgb(0, 0, 0)55);
         margin: 0 auto;
         display: flex;
         padding: 10px;
@@ -28,7 +28,7 @@
     h1 {
         display: flex;
         align-items: center;
-        color: rgb(255, 5, 5);
+        color: rgb(0, 89, 255);
         flex: 1;
         margin: 0;
     }
@@ -44,12 +44,12 @@
 
     a {
         text-decoration: none;
-        color: rgb(255, 0, 0);
+        color: rgb(0, 38, 255);
     }
 
     /* main container area beneath menu */
     main {
-        background: rgb(124, 135, 138);
+        background: rgb(0, 46, 197);
         display: flex;
     }
 
@@ -68,7 +68,7 @@
     }
 
     #interests {
-        border: 4px rgb(255, 255, 255) ridge;
+        border: 4px rgb(172, 172, 172) ridge;
         padding: 8px;
     }
 
@@ -80,14 +80,14 @@
 
 <body>
     <!-- All content goes here -->
-    <div>
+    <div id="all-contents" >
         <nav>
             <h1>My Website</h1>
             <ul id="nav-ul">
-                <li id="nav-li">
+                <li class="nav-li">
                     <a href="index.html"> Home </a>
                 </li>
-                <li id="nav-li">
+                <li class="nav-li">
                     <a href="portfolio.html"> Portfolio </a>
                 </li>
             </ul>
@@ -95,16 +95,18 @@
 
         <main>
             <!-- Sidebar section -->
-            <div> 
-                <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.clubs.nfl.com%2Fimage%2Fprivate%2Ft_editorial_landscape_12_desktop%2Fsaints%2Fxlryuuqck5zw0tzvtdab&imgrefurl=https%3A%2F%2Fwww.neworleanssaints.com%2Fnews%2Ffive-new-orleans-saints-named-to-nfl-pro-bowl-2021&tbnid=RTyYyMDC7L7wiM&vet=12ahUKEwiAjqDmuLvzAhVJS60KHURJAQsQMygCegUIARDEAQ..i&docid=gxy4_D5HUVhV_M&w=1280&h=720&q=new%20orleans%20saints&hl=en&safe=active&ved=2ahUKEwiAjqDmuLvzAhVJS60KHURJAQsQMygCegUIARDEAQ"  width="100" height="100"
+            <div class=sidebar>
+                <img class="sidebar-image"
+                    src= "https://images-na.ssl-images-amazon.com/images/I/71xRxuxKkHL.jpg"
+                width="180" height="180">
             </div>
-
+            
             <!-- Content section -->
-            <div>
+            <div class="content" >
                 <h2> Farrakhan Washington </h2>
                 <p> Student at Independence High </p>
                 <!-- Interests section -->
-                <div>
+                <div id="interests" >
                     <h3>Interests</h3>
                     <ul>
                         <li>Racing</li>

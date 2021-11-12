@@ -24,11 +24,12 @@
     function init(game) {
         let createCannon = cannon.create;
         ////////////////////////////////////////////////////////////////////////
-        // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        
-        // example: 
-        createCannon("top", 450);
-        
+        // ALL YOUR CODE GOES BELOW HERE /////////////////////////////////////// 
+
+        createCannon("top", 510);
+        createCannon("top", 780);
+        createCannon("right", 180);
+        createCannon("bottom", 865)
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////

@@ -109,20 +109,24 @@
 			//points function
 			//increases the speed of the box when clicked
 			function handleBoxClick() {
+				positionX = 0;
+				changeBoxText( points );
+			   points += 1;
 				if (speed > 0) {
-					 speed === speed + 3;
+					 speed = speed + 1;
 				}
 				else {
-					  speed === speed - 3
+					  speed = speed - 1
 				}
 			}
-			// speed = speed + 1
-			//box starting coordinates
-			positionX = 0;
-			//adds one point when the box is clicked
-			points = points + 1;
-			changeBoxText(points);
-		}
+			// // speed = speed + 1
+			// //box starting coordinates
+			// positionX = 0;
+			// //adds one point when the box is clicked
+			 //points = points + 1;
+			//changeBoxText( points );
+			
+		})()
 
 			
 		
